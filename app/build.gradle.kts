@@ -15,10 +15,6 @@ android {
         versionName = "1.0"
     }
 
-    buildFeatures {
-        viewBinding = true  // Enable view binding
-    }
-
     buildTypes {
         release {
             isMinifyEnabled = false
@@ -44,4 +40,7 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.8.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
+    implementation(libs.androidx.monitor)
+    implementation(libs.androidx.junit.ktx)
 }
