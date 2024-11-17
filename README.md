@@ -1,0 +1,1 @@
+This is a screen mirroring app to mirror the screen of one android device to another android device, You can clone the project, build it on android studio and run the apk. Make sure the two devices are on same wifi network for the app to work.
